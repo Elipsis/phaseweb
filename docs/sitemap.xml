@@ -3,26 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>phaseworm.com/</loc>
+    <loc>https://elipsis.github.io/phaseweb/</loc>
     <lastmod>2020-04-16T18:21:25-04:00</lastmod>
   </url>
   
   <url>
-    <loc>phaseworm.com/posts/</loc>
+    <loc>https://elipsis.github.io/phaseweb/posts/</loc>
     <lastmod>2020-04-16T18:21:25-04:00</lastmod>
   </url>
   
   <url>
-    <loc>phaseworm.com/posts/test-post/</loc>
+    <loc>https://elipsis.github.io/phaseweb/posts/test-post/</loc>
     <lastmod>2020-04-16T18:21:25-04:00</lastmod>
   </url>
   
   <url>
-    <loc>phaseworm.com/categories/</loc>
+    <loc>https://elipsis.github.io/phaseweb/categories/</loc>
   </url>
   
   <url>
-    <loc>phaseworm.com/tags/</loc>
+    <loc>https://elipsis.github.io/phaseweb/tags/</loc>
   </url>
   
 </urlset>

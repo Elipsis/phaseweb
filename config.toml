@@ -1,4 +1,4 @@
-baseURL = "phaseworm.com/"
+baseURL = "https://elipsis.github.io/phaseweb/"
 languageCode = "en-us"
 title = "PhaseWorm Test Site"
 theme = "minimal"
