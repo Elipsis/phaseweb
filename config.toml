@@ -1,4 +1,4 @@
-baseURL = "phaseworm.com"
+baseURL = "phaseworm.com/"
 languageCode = "en-us"
 title = "PhaseWorm Test Site"
 theme = "minimal"
