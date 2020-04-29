@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Patch Notes on PhaseWorm</title>
+    <link>https://elipsis.github.io/phaseweb/patch-notes/</link>
+    <description>Recent content in Patch Notes on PhaseWorm</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 28 Apr 2020 14:30:35 -0400</lastBuildDate>
+    
+	<atom:link href="https://elipsis.github.io/phaseweb/patch-notes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>0.1.6</title>
+      <link>https://elipsis.github.io/phaseweb/patch-notes/0.1.6/</link>
+      <pubDate>Wed, 29 Apr 2020 16:22:38 -0400</pubDate>
+      
+      <guid>https://elipsis.github.io/phaseweb/patch-notes/0.1.6/</guid>
+      <description> Added new control scheme for &amp;ldquo;Relative&amp;rdquo; controls. This allows the player to turn 90 degrees with the left and right arrow keys. The default controls are now labeled as &amp;ldquo;Absolute&amp;rdquo;.  </description>
+    </item>
+    
+    <item>
+      <title>0.1.5</title>
+      <link>https://elipsis.github.io/phaseweb/patch-notes/0.1.5/</link>
+      <pubDate>Tue, 28 Apr 2020 16:55:44 -0400</pubDate>
+      
+      <guid>https://elipsis.github.io/phaseweb/patch-notes/0.1.5/</guid>
+      <description> Created in-game options for resolution and fullscreen adjustments.  </description>
+    </item>
+    
+  </channel>
+</rss>
