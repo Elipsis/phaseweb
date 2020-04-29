@@ -12,4 +12,4 @@
 	url = https://github.com/alex-shpak/hugo-book
 [submodule "themes/kraiklyn"]
 	path = themes/kraiklyn
-	url = https://github.com/jsnjack/kraiklyn/
+	url = https://github.com/jsnjack/kraiklyn.git
