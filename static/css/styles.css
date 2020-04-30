@@ -1,5 +1,12 @@
 /* CSS from the Kraiklyn theme: https://github.com/jsnjack/kraiklyn/ */
 
+
+/* TODO: this should definitely not be all the way up here but CSS is hard */
+img.link-icon {
+    vertical-align: middle;
+}
+
+
 html, body {
   font-family: "Open Sans", sans-serif;
   color: #363636;
@@ -232,3 +239,5 @@ table,th, td {
 td{
   padding: 5px;
 }
+
+
