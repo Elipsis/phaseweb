@@ -1,14 +1,11 @@
 baseURL = "https://elipsis.github.io/phaseweb/"
 languageCode = "en-us"
 title = "PhaseWorm"
-theme = "kraiklyn"
 publishDir = "docs"
 
 [params]
 externalTitle = "External Links"
 sidebarColor = "default"
-customCss = []
-
 
 [[menu.shortcuts]]
 name = "Steam Store"
@@ -24,4 +21,3 @@ weight = 101
 name = "Join the Discord"
 url = "https://discordapp.com/invite/yJFyHPh"
 weight = 102
-

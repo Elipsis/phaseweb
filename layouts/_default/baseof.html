@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"{{- with .Site.LanguageCode -}} xml:lang="{{- . -}}" lang="{{- . -}}"{{- end -}}>
+
+<head>
+{{ block "head" . }}
+    {{ partial "head.html" . }}
+{{ end }}
+</head>
+
+<body>
+    <div class="sidebar sidebar-{{- .Site.Params.sidebarColor -}}">
+        <h1 class="site-title">
+            <a href="{{ .Site.BaseURL }}">
+                <img src="{{ .Site.BaseURL }}images/art.png">
+                {{ .Site.Title }}
+            </a>
+        </h1>
+
+        <div class="navigation">
+            <nav class="internal">
+                <ul>
+                {{ range .Site.Sections }}
+                    {{ partial "main_menu.html" . }}
+                {{ end }}
+                    <br>
+                    <li>{{- .Site.Params.externalTitles -}}</li>
+                    <ul>
+                    {{- range sort .Site.Menus.shortcuts -}}
+                        <li><a href="{{- .URL -}}" target="_blank" rel="noopener">{{- safeHTML .Name }} ⬈</a></li>
+                    {{- end -}}
+                    </ul>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div class="content">
+        <header>
+            {{ block "header" . }}
+            <h1>
+                {{- .Title -}}
+            </h1>
+            {{ end }}
+        </header>
+
+        {{ block "main" . }}
+            {{ .Content }}
+        {{ end }} 
+    </div>
+
+</body>
+</html>
