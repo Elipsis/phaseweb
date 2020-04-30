@@ -3,9 +3,6 @@ languageCode = "en-us"
 title = "PhaseWorm"
 publishDir = "docs"
 
-[params]
-sidebarColor = "default"
-
 [[menu.shortcuts]]
 pre = "steam-favicon"
 name = "Steam Store"
@@ -19,6 +16,7 @@ url = "https://www.twitter.com/phaseworm"
 weight = 101
 
 [[menu.shortcuts]]
+pre = "discord-favicon"
 name = "Join the Discord"
 url = "https://discordapp.com/invite/yJFyHPh"
 weight = 102
