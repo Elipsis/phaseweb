@@ -1,0 +1,10 @@
+<li>
+    <a href="{{ .Permalink }}">{{ .Title }}</a>
+    {{ if .Pages }}
+    <ul>
+        {{ range .Pages.ByWeight }}
+            {{ partial "main_menu.html" . }}
+        {{ end }}
+    </ul>
+    {{ end }}
+</li>

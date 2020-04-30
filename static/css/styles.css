@@ -1,0 +1,89 @@
+/* inspired by kraiklyn https://github.com/jsnjack/kraiklyn/ */
+
+:root {
+    --sidebar-bg-color: #363636;
+    --accent-color: #33BEEE;
+    --sidebar-width: 18em;
+}
+
+html, body {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 20px;
+    height: 100%;
+    margin: 0;
+    display: flex; 
+    flex-direction: row;
+}
+
+.sidebar {
+    height: 100%;
+    width: var(--sidebar-width);
+    flex: 0 0 auto;
+    overflow: auto;
+    padding: 1em;
+    background-color: var(--sidebar-bg-color);
+    text-align: center;
+}
+
+.sidebar > nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar nav > div {
+    flex: 1 1 auto;
+}
+
+.content {
+    overflow: auto;
+    margin: 1em;
+}
+
+/* flip layout for small screens */
+@media (max-width: 60em) {
+    html, body {
+        font-size: initial;
+        flex-direction: column;
+    }
+    .sidebar {
+        height: auto;
+        width: 100%;
+        padding: 0.5em;
+    }
+    .sidebar > nav {
+        flex-direction: row;
+    }
+}
+
+/* sidebar styling */
+
+.sidebar a,
+.sidebar a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.sidebar ul {
+    text-align: left;
+    padding-left: 1em;
+}
+
+.sidebar ul > li {
+    list-style: none;
+}
+
+.sidebar nav a:hover {
+    color: var(--accent-color);
+}
+
+.content header > h1 {
+    margin: 0;
+}
+
+/* size inline link icons to line height */
+
+img.linkicon {
+    height: 1em;
+    vertical-align: middle;
+    padding-right: 0.5em;
+}

@@ -1,0 +1,12 @@
+{{ define "header" }}
+    <h1>{{- .Title -}}</h1>
+    <p><i>{{ dateFormat "2006 Jan 02" .Date }}</i></p>
+{{ end }}
+
+{{ define "main" }}
+    {{ .Content }}
+
+    <hr>
+
+    <p><a href="{{- .Parent.Permalink -}}">Go back to {{ .Parent.Title -}}</a>.</p>
+{{ end }}

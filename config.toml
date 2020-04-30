@@ -1,27 +1,22 @@
 baseURL = "https://elipsis.github.io/phaseweb/"
 languageCode = "en-us"
 title = "PhaseWorm"
-theme = "kraiklyn"
 publishDir = "docs"
 
-[params]
-externalTitle = "External Links"
-sidebarColor = "default"
-customCss = []
-
-
 [[menu.shortcuts]]
+pre = "steam-favicon"
 name = "Steam Store"
 url = "https://store.steampowered.com/app/1287790/PhaseWorm/"
 weight = 100
 
 [[menu.shortcuts]]
+pre = "twitter-favicon"
 name = "PhaseWorm on Twitter"
 url = "https://www.twitter.com/phaseworm"
 weight = 101
 
 [[menu.shortcuts]]
+pre = "discord-favicon"
 name = "Join the Discord"
 url = "https://discordapp.com/invite/yJFyHPh"
 weight = 102
-

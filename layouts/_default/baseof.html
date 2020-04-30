@@ -1,0 +1,59 @@
+{{- $baseURL := .Site.BaseURL -}}
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"{{- with .Site.LanguageCode -}} xml:lang="{{- . -}}" lang="{{- . -}}"{{- end -}}>
+
+<head>
+{{ block "head" . }}
+    {{ partial "head.html" . }}
+{{ end }}
+</head>
+
+<body>
+    <div class="sidebar">
+        <header>
+            <h1>
+                <a href="{{ .Site.BaseURL }}">
+                    <img src="{{ .Site.BaseURL }}images/art.png" width="75" height="75">
+                    {{- .Site.Title -}}
+                </a>
+            </h1>
+        </header>
+
+        <nav>
+            <div>
+                <ul>
+                {{ range .Site.Sections }}
+                    {{ partial "main_menu.html" . }}
+                {{ end }}
+                </ul>
+            </div>
+
+            <div>
+                <ul>
+                {{- range sort .Site.Menus.shortcuts -}}
+                    <li>
+                        <a href="{{- .URL -}}" target="_blank" rel="noopener">
+                            {{ with .Pre }}<img class="linkicon" src="{{ $baseURL }}images/{{- . }}.png" />{{ end }}
+                            {{- safeHTML .Name }} ⬈
+                        </a>
+                    </li>
+                {{- end -}}
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="content">
+        <header>
+            {{ block "header" . }}
+                <h1>{{- .Title -}}</h1>
+            {{ end }}
+        </header>
+
+        {{ block "main" . }}
+            {{ .Content }}
+        {{ end }} 
+    </div>
+</body>
+</html>
