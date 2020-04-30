@@ -4,7 +4,7 @@
     {{ range .Pages }}
         <hr>
         <header>
-            <h2><a href="{{- .URL -}}">{{- .Title -}}</a></h2>
+            <h2><a href="{{- .Permalink -}}">{{- .Title -}}</a></h2>
             <p><i>{{ dateFormat "2006 Jan 02" .Date }}</i></p>
         </header>
 

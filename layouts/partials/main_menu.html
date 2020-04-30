@@ -1,5 +1,5 @@
 <li>
-    <a href="{{ .URL }}">{{ .Title }}</a>
+    <a href="{{ .Permalink }}">{{ .Title }}</a>
     {{ if .Pages }}
     <ul>
         {{ range .Pages.ByWeight }}
