@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>PhaseWorm</title>
+    <title>PhaseWorm Home Page on PhaseWorm</title>
     <link>https://elipsis.github.io/phaseweb/</link>
-    <description>Recent content on PhaseWorm</description>
+    <description>Recent content in PhaseWorm Home Page on PhaseWorm</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 29 Apr 2020 16:22:38 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 29 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://elipsis.github.io/phaseweb/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>0.1.6</title>
       <link>https://elipsis.github.io/phaseweb/patch-notes/0.1.6/</link>
-      <pubDate>Wed, 29 Apr 2020 16:22:38 -0400</pubDate>
+      <pubDate>Wed, 29 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://elipsis.github.io/phaseweb/patch-notes/0.1.6/</guid>
       <description> Added new control scheme for &amp;ldquo;Relative&amp;rdquo; controls. This allows the player to turn 90 degrees with the left and right arrow keys. The default controls are now labeled as &amp;ldquo;Absolute&amp;rdquo;.  </description>
@@ -23,7 +23,7 @@
     <item>
       <title>0.1.5</title>
       <link>https://elipsis.github.io/phaseweb/patch-notes/0.1.5/</link>
-      <pubDate>Tue, 28 Apr 2020 16:55:44 -0400</pubDate>
+      <pubDate>Tue, 28 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://elipsis.github.io/phaseweb/patch-notes/0.1.5/</guid>
       <description> Created in-game options for resolution and fullscreen adjustments.  </description>
@@ -32,12 +32,12 @@
     <item>
       <title>Early Access Trailer</title>
       <link>https://elipsis.github.io/phaseweb/announcements/release/</link>
-      <pubDate>Tue, 28 Apr 2020 14:30:35 -0400</pubDate>
+      <pubDate>Tue, 28 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://elipsis.github.io/phaseweb/announcements/release/</guid>
       <description>Introducing PhaseWorm! PhaseWorm is a fast-paced 2D timing and reflex game built with a speedrunning focus. Players will be challenged to think and act quickly as they push for faster times and more difficult paths through each of the game&amp;rsquo;s 30 unique thematic stages.
-Watch the early access trailer to learn more about PhaseWorm
-  PhaseWormwill be available on Steam starting May 4th!</description>
+Watch the early access trailer to learn more about PhaseWorm:
+  PhaseWorm will be available on Steam starting May 4th!</description>
     </item>
     
   </channel>
