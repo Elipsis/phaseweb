@@ -1,4 +1,4 @@
-baseURL = "https://elipsis.github.io/phaseweb/"
+baseURL = "https://phaseworm.com"
 languageCode = "en-us"
 title = "PhaseWorm"
 publishDir = "docs"
