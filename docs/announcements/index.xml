@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Announcements on PhaseWorm</title>
-    <link>https://elipsis.github.io/phaseweb/announcements/</link>
+    <link>https://phaseworm.com/announcements/</link>
     <description>Recent content in Announcements on PhaseWorm</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 28 Apr 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://elipsis.github.io/phaseweb/announcements/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://phaseworm.com/announcements/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Early Access Trailer</title>
-      <link>https://elipsis.github.io/phaseweb/announcements/release/</link>
+      <link>https://phaseworm.com/announcements/release/</link>
       <pubDate>Tue, 28 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://elipsis.github.io/phaseweb/announcements/release/</guid>
+      <guid>https://phaseworm.com/announcements/release/</guid>
       <description>Introducing PhaseWorm! PhaseWorm is a fast-paced 2D timing and reflex game built with a speedrunning focus. Players will be challenged to think and act quickly as they push for faster times and more difficult paths through each of the game&amp;rsquo;s 30 unique thematic stages.
 Watch the early access trailer to learn more about PhaseWorm:
   PhaseWorm will be available on Steam starting May 4th!</description>
