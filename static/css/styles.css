@@ -39,6 +39,10 @@ html, body {
     margin: 1em;
 }
 
+.content img {
+	max-width: 100%;
+}
+
 /* flip layout for small screens */
 @media (max-width: 60em) {
     html, body {

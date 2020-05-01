@@ -4,19 +4,19 @@ title = "PhaseWorm"
 publishDir = "docs"
 
 [[menu.shortcuts]]
-pre = "steam-favicon"
+pre = "steam"
 name = "Steam Store"
 url = "https://store.steampowered.com/app/1287790/PhaseWorm/"
 weight = 100
 
 [[menu.shortcuts]]
-pre = "twitter-favicon"
+pre = "twitter"
 name = "PhaseWorm on Twitter"
 url = "https://www.twitter.com/phaseworm"
 weight = 101
 
 [[menu.shortcuts]]
-pre = "discord-favicon"
+pre = "discord"
 name = "Join the Discord"
 url = "https://discordapp.com/invite/yJFyHPh"
 weight = 102

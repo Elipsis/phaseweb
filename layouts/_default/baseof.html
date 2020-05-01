@@ -34,8 +34,8 @@
                 {{- range sort .Site.Menus.shortcuts -}}
                     <li>
                         <a href="{{- .URL -}}" target="_blank" rel="noopener">
-                            {{ with .Pre }}<img class="linkicon" src="{{ $baseURL }}images/{{- . }}.png" />{{ end }}
-                            {{- safeHTML .Name }} ⬈
+                            {{ with .Pre }}<img class="linkicon" src="{{ $baseURL }}favicons/{{- . }}.png" />{{ end }}
+                            {{- safeHTML .Name }}
                         </a>
                     </li>
                 {{- end -}}
