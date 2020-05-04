@@ -13,12 +13,17 @@
   </url>
   
   <url>
-    <loc>https://phaseworm.com/patch-notes/0.1.6/</loc>
-    <lastmod>2020-04-29T00:00:00+00:00</lastmod>
+    <loc>https://phaseworm.com/announcements/release/</loc>
+    <lastmod>2020-05-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://phaseworm.com/</loc>
+    <lastmod>2020-05-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://phaseworm.com/patch-notes/0.1.6/</loc>
     <lastmod>2020-04-29T00:00:00+00:00</lastmod>
   </url>
   
@@ -28,7 +33,7 @@
   </url>
   
   <url>
-    <loc>https://phaseworm.com/announcements/release/</loc>
+    <loc>https://phaseworm.com/announcements/trailer/</loc>
     <lastmod>2020-04-28T00:00:00+00:00</lastmod>
   </url>
   
