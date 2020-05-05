@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>0.1.7</title>
+      <link>https://phaseworm.com/patch-notes/0.1.7/</link>
+      <pubDate>Mon, 04 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://phaseworm.com/patch-notes/0.1.7/</guid>
+      <description> Fixed a minor typo in the Unity properties for Level 27 - &amp;ldquo;Intersections in Real Time&amp;rdquo; which was causing it not to log player deaths or medals on this stage. Level 25 - &amp;ldquo;Lake Rancid&amp;rdquo; contained a red apple on a brick tile. This was changed to the usual green apple for visiblity reasons.  </description>
+    </item>
+    
+    <item>
       <title>Launch Day</title>
       <link>https://phaseworm.com/announcements/release/</link>
       <pubDate>Mon, 04 May 2020 00:00:00 +0000</pubDate>
