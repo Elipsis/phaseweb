@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>0.1.8</title>
+      <link>https://phaseworm.com/patch-notes/0.1.8/</link>
+      <pubDate>Mon, 11 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://phaseworm.com/patch-notes/0.1.8/</guid>
+      <description> Added a new feature by user request which gives more feedback on the death screen. Players will now see the color of their worm at time of death, and the object they collided.  </description>
+    </item>
+    
+    <item>
       <title>0.1.7</title>
       <link>https://phaseworm.com/patch-notes/0.1.7/</link>
       <pubDate>Mon, 04 May 2020 00:00:00 +0000</pubDate>
