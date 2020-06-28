@@ -20,3 +20,9 @@ pre = "discord"
 name = "Join the Discord"
 url = "https://discordapp.com/invite/yJFyHPh"
 weight = 102
+
+[[menu.shortcuts]]
+pre = "speedrun"
+name = "Speedrun.com"
+url = "https://www.speedrun.com/phaseworm"
+weight = 103
