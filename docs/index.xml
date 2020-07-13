@@ -6,10 +6,21 @@
     <description>Recent content on PhaseWorm</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 28 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jul 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://phaseworm.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>0.2.0</title>
+      <link>https://phaseworm.com/patch-notes/0.2.0/</link>
+      <pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://phaseworm.com/patch-notes/0.2.0/</guid>
+      <description>I&amp;rsquo;m excited to announce the new feature release which takes the game from 0.1.x to 0.2.x.
+  9 Steam achievements!
+ Problematic Practice - Eat the 14th and 15th apples in The Enchanted Forest without leaving the water. Winning Worm - Complete story mode. Proclaimer - Worm 1000 tiles. Shun Goku Satsu - Die 1000 deaths. Medal Meddler - Get a medal on any non-tutorial level. Medal Master - Get a medal on every level.</description>
+    </item>
     
     <item>
       <title>Speedrun.com Leaderboard</title>
