@@ -139,14 +139,19 @@
     <div class="content">
         <header>
             
-    <h1>0.1.6</h1>
-    <p><i>2020 Apr 29</i></p>
+    <h1>0.2.2</h1>
+    <p><i>2020 Aug 31</i></p>
 
         </header>
 
         
     <ul>
-<li>Added new control scheme for &ldquo;Relative&rdquo; controls.  This allows the player to turn 90 degrees with the left and right arrow keys.  The default controls are now labeled as &ldquo;Absolute&rdquo;.</li>
+<li>
+<p>Refactored all scenes in Unity with a base resolution of 1920x1080, rather than 800x600 (ie: a 16:9 default instead of a 4:3 default).  This should correct an issue with ultrawide resolutions (tested with 2560x1080) while menuing.</p>
+</li>
+<li>
+<p>Changed algorithm for in-game dynamic scaling of screen size to support ultra widescreen resolutions as well as 4:3.  This means two algorithms are used, and we always then choose the one which is more zoomed out.</p>
+</li>
 </ul>
 
 

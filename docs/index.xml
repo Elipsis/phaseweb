@@ -6,10 +6,20 @@
     <description>Recent content on PhaseWorm</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://phaseworm.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>0.2.2</title>
+      <link>https://phaseworm.com/patch-notes/0.2.2/</link>
+      <pubDate>Mon, 31 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://phaseworm.com/patch-notes/0.2.2/</guid>
+      <description>Refactored all scenes in Unity with a base resolution of 1920x1080, rather than 800x600 (ie: a 16:9 default instead of a 4:3 default). This should correct an issue with ultrawide resolutions (tested with 2560x1080) while menuing.
+  Changed algorithm for in-game dynamic scaling of screen size to support ultra widescreen resolutions as well as 4:3. This means two algorithms are used, and we always then choose the one which is more zoomed out.</description>
+    </item>
     
     <item>
       <title>0.2.1</title>
