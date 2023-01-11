@@ -145,21 +145,44 @@
     <div class="content">
         <header>
             
-    <h1>Launch Day</h1>
-    <p><i>2020 May 04</i></p>
+    <h1>0.3.0</h1>
+    <p><i>2023 Jan 11</i></p>
 
         </header>
 
         
-    <p>Today is the day!  PhaseWorm is officially <a href="https://store.steampowered.com/app/1287790/PhaseWorm/">released on Steam</a> kicking off with the <strong>early bird gets the PhaseWorm</strong> sale.  For one week only there will be 25% off of the baseline price.</p>
-<p>Launch day also marks the opening of the Steam community page.  Because this is an early access title, I invite everyone to use it to talk about what kind of experience you are all having with the various levels.  How many of you are pushing for top times?  What levels are you getting stuck on and how many deaths do you have?  Do you have any thoughts on additional options or features that you feel would improve the game?  PhaseWorm is intended to be a very challenging game, but I want to make sure that the earlier medals feel achievable and that the level progression makes sense.</p>
-<p>On a personal note, today marks a major milestone on a journey that began in October of 2019 when I decided to learn Unity.  While the game will continue to incrementally improve to the 1.0 state and beyond, it&rsquo;s so exciting to finally get to share my first indie title with the world.</p>
-<p>-Elipsis</p>
+    <p>After over 2 years of silence, I&rsquo;m excited to announce another new feature release which takes the game from 0.2.x to 0.3.x.  That&rsquo;s right, PhaseWorm development has restarted!</p>
+<ul>
+<li>
+<p>New Features!</p>
+<ul>
+<li>Xbox and Gamepad controller support!  Xinput controller should be automatically detected and usable in the game&rsquo;s engine with no additional configuration needed.</li>
+<li>Quick restart!  Press ` (tilde) or the select / back button on your Xbox controller to instantly restart any level.</li>
+<li>Phase predictors will now change depending on your controller input scheme to show you the correct keyboard key xor Xbox controller button, depending on what it senses you are using.</li>
+</ul>
+</li>
+<li>
+<p>Backend:</p>
+<ul>
+<li>Refactored all input handling from the ground up using Unity&rsquo;s new input system.</li>
+<li>Single PlayerInput now runs per scene instead of multiple competing input listeners.</li>
+<li>Fixed a bug where players could crash the game creating a profile.</li>
+</ul>
+</li>
+<li>
+<p>Misc:</p>
+<ul>
+<li>Added MikeIsMyIke, first person to beat the game, into the credits as a tester.</li>
+<li>Fixed Unsightly Credits Kerfuffle.  Deleted A Name.</li>
+</ul>
+</li>
+</ul>
+<p><img src="../../images/xbox-predictors.png" alt="Xbox Predictors"></p>
 
 
     <hr>
 
-    <p><a href="https://phaseworm.com/announcements/">Go back to Announcements</a>.</p>
+    <p><a href="https://phaseworm.com/patch-notes/">Go back to Patch Notes</a>.</p>
  
     </div>
 </body>

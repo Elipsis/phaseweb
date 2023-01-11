@@ -3,7 +3,7 @@
 
 <head>
 
-    <meta name="generator" content="Hugo 0.69.0" />
+    <meta name="generator" content="Hugo 0.87.0" />
 
 <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
@@ -63,6 +63,12 @@
     <a href="https://phaseworm.com/patch-notes/">Patch Notes</a>
     
     <ul>
+        
+            <li>
+    <a href="https://phaseworm.com/patch-notes/0.3.0/">0.3.0</a>
+    
+</li>
+
         
             <li>
     <a href="https://phaseworm.com/patch-notes/0.2.2/">0.2.2</a>
@@ -147,6 +153,41 @@
     <p><p>Information about each released version of PhaseWorm.</p>
 </p>
 
+    
+        <hr>
+        <header>
+            <h2><a href="https://phaseworm.com/patch-notes/0.3.0/">0.3.0</a></h2>
+            <p><i>2023 Jan 11</i></p>
+        </header>
+
+        <p><p>After over 2 years of silence, I&rsquo;m excited to announce another new feature release which takes the game from 0.2.x to 0.3.x.  That&rsquo;s right, PhaseWorm development has restarted!</p>
+<ul>
+<li>
+<p>New Features!</p>
+<ul>
+<li>Xbox and Gamepad controller support!  Xinput controller should be automatically detected and usable in the game&rsquo;s engine with no additional configuration needed.</li>
+<li>Quick restart!  Press ` (tilde) or the select / back button on your Xbox controller to instantly restart any level.</li>
+<li>Phase predictors will now change depending on your controller input scheme to show you the correct keyboard key xor Xbox controller button, depending on what it senses you are using.</li>
+</ul>
+</li>
+<li>
+<p>Backend:</p>
+<ul>
+<li>Refactored all input handling from the ground up using Unity&rsquo;s new input system.</li>
+<li>Single PlayerInput now runs per scene instead of multiple competing input listeners.</li>
+<li>Fixed a bug where players could crash the game creating a profile.</li>
+</ul>
+</li>
+<li>
+<p>Misc:</p>
+<ul>
+<li>Added MikeIsMyIke, first person to beat the game, into the credits as a tester.</li>
+<li>Fixed Unsightly Credits Kerfuffle.  Deleted A Name.</li>
+</ul>
+</li>
+</ul>
+<p><img src="../../images/xbox-predictors.png" alt="Xbox Predictors"></p>
+</p>
     
         <hr>
         <header>
